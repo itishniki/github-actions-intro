@@ -16,7 +16,7 @@ jobs:
         pr-message: 'Thank you for creating pull request'
  
   test-run:
-    runs-on: ubunte-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         name: ['web', 'api', 'ui']
